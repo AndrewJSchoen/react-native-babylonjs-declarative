@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "react-native-babylonjs-declarative",
+    "slug": "react-native-babylonjs-declarative",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "react-native-babylonjs-declarative"
+}
