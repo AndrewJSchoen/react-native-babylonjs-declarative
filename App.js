@@ -1,12 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import { EngineScreen } from './src/EngineView';
+import { useEngine, EngineView} from '@babylonjs/react-native';
+
 export default function App() {
+
+  const engine = useEngine();
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text>AR/XR React Native</Text>
+      {/* <EngineScreen style={{flex: 1, backgroundColor:'red'}}/> */}
     </View>
   );
 }
